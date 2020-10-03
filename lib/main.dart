@@ -9,6 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      //해당 문구 추가시 앱바 상단의 디버그 라벨 삭제
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
